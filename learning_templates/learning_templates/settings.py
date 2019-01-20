@@ -75,23 +75,23 @@ WSGI_APPLICATION = 'learning_templates.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'djangotest3',
-        'USER': 'postgres',
-        'PASSWORD': 'blueline_29',
-        'HOST': 'localhost',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'djangotest3',
+#         'USER': 'postgres',
+#         'PASSWORD': 'blueline_29',
+#         'HOST': 'localhost',
+#         'PORT': '',
+#     }
+# }
 
 
 
